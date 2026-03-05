@@ -4,4 +4,4 @@ export function heyThere(): string {
 ***************************************************************`;
   console.log(greeting);
   return greeting;
-};
+}

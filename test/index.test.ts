@@ -1,5 +1,5 @@
+import { expect, test } from 'vitest';
 import { heyThere } from '../src/index';
-import { test, expect } from 'vitest';
 
 const greet = `***************************************************************
 ************** Hey there! You're up and running! **************

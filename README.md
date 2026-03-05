@@ -15,3 +15,9 @@ cd template-node-ts && rm -rf .git
 ### On your machine:
 1. `$ npm install`
 2. Make cool stuff!
+
+### Linting and formatting (Biome)
+- `npm run lint` - run Biome checks
+- `npm run lint:fix` - apply lint and safe fix updates
+- `npm run format:check` - check formatting
+- `npm run format` - write formatting updates

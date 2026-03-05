@@ -10,13 +10,18 @@
     "start": "tsx watch src/index.ts",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "format:check": "biome format ."
   },
   "devDependencies": {
-    "@types/node": "^25.0.0",
-    "@vitest/coverage-v8": "^4.0.15",
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^25.3.3",
+    "@vitest/coverage-v8": "^4.0.18",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.18"
   }
 }
